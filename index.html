@@ -30,16 +30,16 @@
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Calendario y Partidos</a>
+                    <a class="nav-link" href="./pages/partidos.html">Calendario y Partidos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Tabla de Posiciones</a>
+                    <a class="nav-link" href="./pages/tabla.html">Tabla de Posiciones</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Media</a>
+                    <a class="nav-link" href="./pages/media.html">Media</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="./pages/contactenos.html">Contacto</a>
                   </li>
 
                 </ul>
@@ -48,7 +48,7 @@
           </nav>
         </header>
         
-        <main>
+        <main class="bg-dark">
         
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -61,21 +61,21 @@
                     <div class="carousel-caption d-none d-md-block">
                       <h3>ASOCIACION BALONMANO CINCO SALTOS</h3>
                       <p>Respeto a todos. Miedo a ninguno.</p>
-                      <button type="button" class="btn btn-danger">Sobre Nosotros</button>
+                      <a href="#nosotros" class="btn btn-danger btn-lg" tabindex="-1" role="button" aria-disabled="true">Sobre Nosotros</a>
                     </div>
                   </div>
                   <div class="carousel-item fondo2">
                     <div class="carousel-caption d-none d-md-block">
                       <h3>CONTÁCTENOS</h3>
                       <p>Ante cualquier consulta, no dude en contactarnos.</p>
-                      <button type="button" class="btn btn-danger">Contacto</button>
+                      <a href="./pages/contactenos.html" class="btn btn-danger btn-lg" tabindex="-1" role="button" aria-disabled="true">Contacto</a>
                     </div>
                   </div>
                   <div class="carousel-item fondo3">
                     <div class="carousel-caption d-none d-md-block">
                       <h3>PRÓXIMOS PARTIDOS</h3>
                       <p>Vea lugar y horario de nuestros próximos partidos y de resultados anteriores.</p>
-                      <button type="button" class="btn btn-danger">Partidos</button>
+                      <a href="./pages/partidos.html" class="btn btn-danger btn-lg" tabindex="-1" role="button" aria-disabled="true">Partidos</a>
                     </div>
                   </div>
                 </div>
@@ -88,6 +88,62 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+
+
+              <section id="nosotros" class="container mt-5">
+                <div class="row align-items-center text-center">
+                    <div class="col-lg-6 text-white">
+                        <h2><span>S</span>obre Nosotros</h2>
+                        <p>Asociación Balonmano Cinco Saltos (ABCS) es un club de handball formado en el año 2008 en la Ciudad de Cinco Saltos, Río Negro.</p>
+                        <p>Actualmente contamos con las siguientes categorías: Minis (menores de 13 años), Menores (13 y 14 años), Cadetes (15 y 16 años), Juveniles (17 y 18 años) y Mayores (mayores a 18 años). Todas las categorias cuantan con rama femenina y masculina.</p>
+                        <a href="#horarios" class="btn btn-danger btn-lg" tabindex="-1" role="button" aria-disabled="true">Horarios</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./img/img14.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
+              </section>
+
+              
+              <section id="horarios" class="container">
+                <div class="row text-center align-middle" >
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-white align-middle">
+                        <h2>Nuestros <span>H</span>orarios</h2>
+                        <h5>Lunes, Miércoles y Jueves</h5>
+                        <p>Minis: 18 a 19 hs</p>
+                        <p>Menores: 19 a 20 hs</p>
+                        <p>Cadetes: 20 a 21 hs</p>
+                        <p>Juveniles: 21 a 22 hs</p>
+                        <p>Mayores: 22 a 23 hs</p>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-white">
+                        <h2><span>U</span>bicación</h2>
+                        <h5>Playón Escuela N°39</h5>
+                        <div class="horarios__texto">
+                            <p>Dirección: Estrada y Av. Rivadavia</p>
+                            <p>Localidad: Cinco Saltos, Río Negro</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.303707661988!2d-68.07463147994767!3d-38.825504844619196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a4a14becd3895%3A0xf162b2e0644abd21!2sAvenida%20Rivadavia%20%26%20Estrada%2C%20Cinco%20Saltos%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1655500716175!5m2!1ses!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+              </section>
+        
+              <footer>
+                <div class="redes">
+                    <ul>
+                        <li><a href="https://www.facebook.com/Balonmano5saltos-101682851905168/" target="_blank" class="facebook"><i class='bx bxl-facebook-square'></i></a></li>
+                        <li><a href="https://www.instagram.com/balonmano5saltos/" target="_blank" class="instagram"><i class='bx bxl-instagram-alt' ></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCUxIsBo2Sn20YEM8QWTwYrA" target="_blank" class="youtube"><i class='bx bxl-youtube'></i></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>Copyright 2022 <span>Juan Sepúlveda</span>. All Right Reserved</p>
+                </div>
+            </footer>
         
         
           
