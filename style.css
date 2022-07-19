@@ -33,6 +33,13 @@ h2 span {
     font-size: 1.5em;
 }
 
+p a {
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+    font-size: 1em;
+}
+
 .horarios__texto{
     height: 70%;
     display: flex;
